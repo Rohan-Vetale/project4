@@ -1,0 +1,222 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bitcoin updatesSearch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            background-color: #222;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        article {
+            flex: 0 1 80%; /* Adjust the width of each article */
+            margin: 10px;
+            background-color: #333; /* Darker background color for articles */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White box shadow for contrast */
+            transition: transform 0.3s;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+
+        p {
+            color: #ccc;
+            padding: 10px;
+            margin: 0;
+        }
+
+        a {
+            display: block;
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Automated News Articles</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/search">Search</a>
+        <a href="/about">More</a>
+        <div class = "container1">
+        
+<form class="row g-3 my-3" method = "post" action = "/search/">
+    
+     {% csrf_token %} 
+    <div class="col-auto">
+      <label for="inputtext" class="visually-hidden">Search a topic</label>
+    </div>
+    <div class="col-auto ">
+      <input type="text" class="form-control" id="inputtext" placeholder="Your Interest" name = "queryText">
+    </div>
+    <div class="col-auto ">
+      <button type="submit" class="btn btn-primary px-2">Search</button>
+    </div>
+  </form>
+
+        </div class = "container1">
+    </nav>
+    
+    <section>
+        
+        
+        <article>
+            
+            <h2> Bitcoin is back (sort of) </h2>
+            
+<img src="https://i.insider.com/654d5b6f3cc84b4dfaffcb5e?width=1200&amp;format=jpeg" alt="Giphy Image" class="img-fluid" >
+
+
+            <p>How To Buy Bitcoin ETF Token – Complete Guide
+
+Bitcoin has been the talk of the town for quite some time now. But what if you could invest in Bitcoin without actually owning any? That&#x27;s where the Bitcoin ETF token (BTCETF) comes in. This new crypto is rapidly gaining popularity, primarily due to the excitement surrounding its launch.
+
+So, how can you get your hands on this innovative investment opportunity? Here&#x27;s a complete guide on how to buy Bitcoin ETF token:
+
+1. Choose a Reliable Exchange Platform
+The first step is to find a reliable exchange platform that supports the trading of BTCETF. Look for a platform that has a good reputation, secure features, and a user-friendly interface. Some popular options include Coinbase, Binance, and Kraken.
+
+2. Sign Up and Complete the Verification Process
+Once you&#x27;ve chosen an exchange platform, you&#x27;ll need to sign up and create an account. Provide all the necessary information and go through the verification process. This typically involves submitting identification documents for KYC (Know Your Customer) compliance.
+
+3. Deposit Funds
+After your account is verified, it&#x27;s time to deposit funds. Most exchange platforms allow you to deposit funds using various methods, including bank transfer, credit/debit cards, or even other cryptocurrencies. Choose the option that suits you best and complete the transaction.
+
+4. Search for BTCETF
+Once your funds are deposited, search for BTCETF on the exchange platform. Make sure you&#x27;re selecting the correct token, as there may be other similar-sounding options. Double-check the ticker and read the details to ensure you&#x27;re buying the right token.
+
+5. Place an Order
+Once you&#x27;ve found BTCETF, it&#x27;s time to place an order. Decide how much you want to invest and choose between a market order or a limit order. A market order buys the token at the current market price, while a limit order allows you to set a specific price at which you want to buy.
+
+6. Monitor Your Investment
+After placing the order, keep an eye on your investment. Bitcoin ETF tokens, like any other cryptocurrency, can be volatile. It&#x27;s important to monitor the market trends and set stop-loss orders to protect your investment.
+
+7. Consider a Wallet for Long-term Storage
+If you plan to hold your BTCETF tokens for the long term, it&#x27;s recommended to consider a wallet for secure storage. Hardware wallets like Ledger or Trezor provide an extra layer of protection against potential cyber threats.
+
+8. Stay Informed and Diversify
+Lastly, stay informed about the latest developments and news regarding Bitcoin ETF tokens. Cryptocurrency markets can be unpredictable, so it&#x27;s always a good idea to diversify your investment portfolio.
+
+In conclusion, buying Bitcoin ETF tokens can provide an alternative way to invest in Bitcoin without actually owning the digital currency. By following this complete guide, you&#x27;ll be on your way to exploring this exciting investment opportunity. Just remember to exercise caution, stay informed, and never invest more than you can afford to lose.
+
+Disclaimer: The information provided in this article is for educational purposes only and should not be considered as financial advice. Always do your research and consult with a professional advisor before making any investment decisions.
+
+The post How To Buy Bitcoin ETF Token – Complete Guide appeared first on ReadWrite.</p>
+            
+        </article>
+        
+
+        
+
+        
+
+        <!-- Add more articles as needed -->
+        
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

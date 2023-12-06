@@ -1,0 +1,204 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animal box officeSearch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            background-color: #222;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        article {
+            flex: 0 1 80%; /* Adjust the width of each article */
+            margin: 10px;
+            background-color: #333; /* Darker background color for articles */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White box shadow for contrast */
+            transition: transform 0.3s;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+
+        p {
+            color: #ccc;
+            padding: 10px;
+            margin: 0;
+        }
+
+        a {
+            display: block;
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Automated News Articles</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/search">Search</a>
+        <a href="/about">More</a>
+        <div class = "container1">
+        
+<form class="row g-3 my-3" method = "post" action = "/search/">
+    
+     {% csrf_token %} 
+    <div class="col-auto">
+      <label for="inputtext" class="visually-hidden">Search a topic</label>
+    </div>
+    <div class="col-auto ">
+      <input type="text" class="form-control" id="inputtext" placeholder="Your Interest" name = "queryText">
+    </div>
+    <div class="col-auto ">
+      <button type="submit" class="btn btn-primary px-2">Search</button>
+    </div>
+  </form>
+
+        </div class = "container1">
+    </nav>
+    
+    <section>
+        
+        
+        <article>
+            
+            <h2> Animal box office collection day 1: Ranbir film creates history in North America | Bollywood</h2>
+            
+<img src="https://www.hindustantimes.com/ht-img/img/2023/12/02/550x309/animal_ranbir_1701494637178_1701494683410.jpg" alt="Giphy Image" class="img-fluid" >
+
+
+            <p> Animal Advances at the Box Office: Ranbir Kapoor&#x27;s Crime Saga Creates a Sensation in the Telugu-speaking Market
+
+Ranbir Kapoor&#x27;s latest crime saga, &quot;Animal,&quot; is making waves at the box office, particularly in the Telugu-speaking market. The film, which features Kapoor in a gritty and intense role, has been drawing big crowds and creating a buzz among moviegoers.
+
+The Telugu-speaking market has traditionally been dominated by local superstars and regional cinema. However, Animal&#x27;s success in this market is a testament to the film&#x27;s gripping storyline, powerful performances, and the star power of Ranbir Kapoor. His previous films, such as &quot;Sanju&quot; and &quot;Yeh Jawaani Hai Deewani,&quot; have already garnered immense popularity across regional markets, making him a favorite among audiences.
+
+The crime genre has always been a crowd-puller in the Indian film industry, and Animal is no exception. The film centers around a complex web of crime, revenge, and redemption and is known for its engaging storyline. Additionally, the film boasts an ensemble cast including actors like Parineeti Chopra, Anil Kapoor, and Bobby Deol, further adding to its appeal.
+
+Animal&#x27;s success at the box office can also be attributed to the strategic release timing. With the theatrical business slowly bouncing back after the COVID-19 pandemic, the film&#x27;s release during the festive season of Diwali has proved to be advantageous. Movie buffs were eagerly waiting for quality content, and Animal seems to have fulfilled their expectations.
+
+The positive word-of-mouth reviews and critical acclaim have further boosted the film&#x27;s popularity. It has been praised for its tight screenplay, intense performances, and impressive dialogues. Director Sandeep Reddy Vanga&#x27;s vision and execution have also been lauded by both critics and audiences alike.
+
+Animal&#x27;s impressive run in the Telugu-speaking market has already set new records for Ranbir Kapoor. Industry experts predict that the film is on track to deliver record-breaking numbers, solidifying Kapoor&#x27;s position as one of the most bankable actors in the industry. With its success, Animal has also proven that regional markets are open to accepting and embracing films from other languages, thereby widening the audience base for filmmakers.
+
+The film&#x27;s success in the Telugu-speaking market is a positive sign for the Indian film industry as a whole. It showcases the potential of pan-Indian releases, where movies can transcend language barriers and appeal to audiences across the country. Animal&#x27;s triumph in the Telugu-speaking market has opened doors for future collaborations between Bollywood and regional industries.
+
+As Animal continues to captivate audiences in the Telugu-speaking market, its box office numbers are expected to soar to new heights. This crime saga has struck a chord with viewers, and its success highlights the ever-growing appetite for high-quality cinema among moviegoers. With Ranbir Kapoor&#x27;s stellar performance and an engaging storyline, Animal is undoubtedly set to leave an indelible mark in the world of Indian cinema.</p>
+            
+        </article>
+        
+
+        
+
+        
+
+        <!-- Add more articles as needed -->
+        
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

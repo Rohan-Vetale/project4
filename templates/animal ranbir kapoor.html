@@ -1,0 +1,204 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animal ranbir kapoorSearch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #1a1a1a; /* Dark background color */
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            background-color: #222;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        article {
+            flex: 0 1 80%; /* Adjust the width of each article */
+            margin: 10px;
+            background-color: #333; /* Darker background color for articles */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White box shadow for contrast */
+            transition: transform 0.3s;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+
+        p {
+            color: #ccc;
+            padding: 10px;
+            margin: 0;
+        }
+
+        a {
+            display: block;
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Automated News Articles</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/search">Search</a>
+        <a href="/about">More</a>
+        <div class = "container1">
+        
+<form class="row g-3 my-3" method = "post" action = "/search/">
+    
+     {% csrf_token %} 
+    <div class="col-auto">
+      <label for="inputtext" class="visually-hidden">Search a topic</label>
+    </div>
+    <div class="col-auto ">
+      <input type="text" class="form-control" id="inputtext" placeholder="Your Interest" name = "queryText">
+    </div>
+    <div class="col-auto ">
+      <button type="submit" class="btn btn-primary px-2">Search</button>
+    </div>
+  </form>
+
+        </div class = "container1">
+    </nav>
+    
+    <section>
+        
+        
+        <article>
+            
+            <h2> Alia Bhatt cheers for husband Ranbir Kapoor after watching Animal trailer; says her ‘mind is officially blown’ </h2>
+            
+<img src="https://images.indianexpress.com/2023/11/Alia-Bhatt-1-1.jpg" alt="Giphy Image" class="img-fluid" >
+
+
+            <p>In a recent interview, director Sandeep Reddy Vanga revealed an interesting tidbit about working with Ranbir Kapoor on their upcoming film, Animal. Vanga stated that Kapoor did not want the term &quot;superstar&quot; to be attached to his name on the film&#x27;s poster.
+
+Vanga, who is known for his previous hits like Kabir Singh and Arjun Reddy, is collaborating with Kapoor for the first time in Animal. The film has already generated a lot of buzz and anticipation among fans, mainly because of the talented individuals involved in its making.
+
+During the interview, Vanga applauded Kapoor for his humble and down-to-earth nature. He mentioned that Kapoor didn&#x27;t want to be labeled as a &quot;superstar&quot; on the film&#x27;s poster, as he believed that the audience should decide whether he&#x27;s truly deserving of such a title or not. This showcases Kapoor as someone who values the audience&#x27;s opinion and wants to let his work speak for itself.
+
+Vanga&#x27;s revelation about Kapoor&#x27;s choice to detach the term &quot;superstar&quot; from his name is a refreshing departure from the usual practice in the Indian film industry. Often, actors are associated with grandiose titles like &quot;superstar&quot; to enhance their popularity and market value. However, Kapoor&#x27;s decision to let go of this label is indicative of his commitment to authentic storytelling and his desire to be judged solely on his performance.
+
+This move by Kapoor also reflects a growing trend in the industry where actors are embracing more relatable and realistic characters, rather than always playing larger-than-life figures. By detaching himself from the &quot;superstar&quot; label, Kapoor is paving the way for a more diverse and nuanced portrayal of characters onscreen.
+
+Animal, which also stars Parineeti Chopra and Anil Kapoor, is an intense drama that revolves around the concept of a dark and gritty battle for power within a family. The film is expected to showcase the raw emotions and edgy performances that Vanga is known for.
+
+As fans eagerly await the release of Animal, Ranbir Kapoor&#x27;s decision to distance himself from the &quot;superstar&quot; tag on the film&#x27;s poster only adds to the intrigue surrounding the project. It is a clear statement that he is focused on delivering a remarkable performance without relying on external labels.
+
+In a world where social media and celebrity culture often dictate an actor&#x27;s image, Kapoor&#x27;s choice to detach himself from the &quot;superstar&quot; label is both refreshing and admirable. It showcases his dedication to his craft and his willingness to let the audience decide his true status as a performer.
+
+Whether or not the audience will indeed crown Ranbir Kapoor as a superstar after the release of Animal remains to be seen. However, one thing is certain – his talent and his willingness to break free from conventional norms make him an artist to watch out for.</p>
+            
+        </article>
+        
+
+        
+
+        
+
+        <!-- Add more articles as needed -->
+        
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
